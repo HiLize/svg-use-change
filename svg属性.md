@@ -1,5 +1,5 @@
 # svg 自身属性：
-*>svg画布的原点坐标试左上角，右x值为正向变大，下y值正向变大
+* >svg画布的原点坐标试左上角，右x值为正向变大，下y值正向变大
 >1.viewport:用width：100 svg画布宽度 height：200 svg画布高度，来设置可视区域大小。width height可以有单位，默认为像素px
 >1.viewBox（x,y,width,height）：(0,0,100,200)从svg坐标位置0，0起，取宽高为100，200的矩形，填充满整个svg大小。该属性可以缩放移动svg图形。
 >1.preserveAspectRatio：设置viewport宽高比与viewbox宽高比的比是否一致。
