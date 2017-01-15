@@ -3,11 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SVG</title>
+	<style type="text/css">
+		.div_inline {
+			display: inline-block;
+			margin-right: 10px;
+			width: 350px;
+			min-height: 350px;
+		}
+	</style>
 </head>
 <body>
-	<h2>svg viewBox</h2>
-	<svg width='300' height='300' viewBox='0,0,100,100' style='border: 1px solid #aaaaaa'>
-		<rect x='10' y='10' width='80' height='80' fill='#2dc3d3' />
-	</svg>
+	<div class="div_inline">
+		<h3>svg viewBox(0,0,300,300)</h3>
+		<p>矩形占svg的原始位置大小</p>
+		<svg width='300' height='300' viewBox='0,0,300,300' style='border: 1px solid #aaaaaa'>
+			<rect x='10' y='10' width='80' height='80' fill='#2dc3d3' />
+		</svg>
+	</div>
+	<div class="div_inline">
+		<h3>svg viewBox(0,0,100,100)</h3>
+		<p>从svg(0,0)坐标开始取100，100大小的矩形填充到整个svg中</p>
+		<svg width='300' height='300' viewBox='0,0,100,100' style='border: 1px solid #aaaaaa'>
+			<rect x='10' y='10' width='80' height='80' fill='#2dc3d3' />
+		</svg>
+	</div>
 </body>
 </html>
